@@ -39,7 +39,7 @@ app.get('/', (req, res) => {
 app.post('/api/classify', (req, res, next) =>
   classifier.classify({
     text: req.body.text,
-    classifier_id: process.env.CLASSIFIER_ID || 'natural-language-classifier-standard',
+    classifier_id: process.env.CLASSIFIER_ID || '<classifier-id>',
   }, (err, data) => {
     if (err) {
       return next(err);
