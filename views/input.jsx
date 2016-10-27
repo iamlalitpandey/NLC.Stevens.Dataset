@@ -47,7 +47,7 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <h2 className="base--h2">Student Advisor Portal - NLC SERVICE DEMO</h2>
+        <h2 className="base--h2">Student Advisor Portal - NLC Service Demo</h2>
         <p className="base--p" >Natural Language Classifier will categorize the questions from students and assign them to a meaningful domain. 
 		The NLC demo will determine whether the questions is related to <code className="base--code">Admissions</code>,
           &nbsp;<code className="base--code">Faculty,</code> &nbsp;<code className="base--code">Research,</code> &nbsp; or other domains.
