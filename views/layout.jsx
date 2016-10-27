@@ -31,7 +31,7 @@ function Layout(props) {
           {props.children}
         </div>
         <script type="text/javascript" src="js/bundle.js" />
-        <script type="text/javascript" src="js/ga.js" />
+        <script type="text/javascript" src="js/ga.js" /><h2></h2>
       </body>
     </html>
   );

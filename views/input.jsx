@@ -125,7 +125,6 @@ export default React.createClass({
                 >
                   Does the BI&A program run placement events?
 
-
                 </a>
               </li>
               <li className="base--li">
@@ -137,26 +136,7 @@ export default React.createClass({
 
                 </a>
               </li>
-              <li className="base--li">
-                <a
-                  className="base--a"
-                  onClick={this.onSampleQuestionClick}
-                >
-                  Where can I get help as an international student?
-
-
-                </a>
-              </li>
-              <li className="base--li">
-                <a
-                  className="base--a"
-                  onClick={this.onSampleQuestionClick}
-                >
-                  What is the minimum TOEFL score required for admission to the program?
-
-
-                </a>
-              </li>
+                           
             </ul>
           </div>
           <div className="sample-questions--right">
