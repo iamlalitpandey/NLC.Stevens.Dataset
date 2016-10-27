@@ -1,3 +1,4 @@
+---
 declared-services:
   natural-language-classifier-standard:
     label: natural_language_classifier
@@ -5,7 +6,8 @@ declared-services:
 applications:
 - services:
   - natural-language-classifier-standard
-  name: natural-language-classifier-demo
+  name: NLC-Demo
   command: npm start
   path: .
   memory: 512M
+  host: NLC-Demo
