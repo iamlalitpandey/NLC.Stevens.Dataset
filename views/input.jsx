@@ -47,14 +47,11 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <h2 className="base--h2">Ask a question about the weather</h2>
-        <p className="base--p" >Watch the Natural Language Classifier
-          categorize your weather-related question. In this demo, the classifier is
-          trained to determine whether the question is related
-          to <code className="base--code">temperature</code> or
-          &nbsp;<code className="base--code">conditions</code>.
-          The output includes
-          the top classification and a confidence score.
+        <h2 className="base--h2">Student Advisor Portal - NLC SERVICE DEMO</h2>
+        <p className="base--p" >Natural Language Classifier will categorize the questions from students and assign them to a meaningful domain. 
+		The NLC demo will determine whether the questions is related to <code className="base--code">Admissions</code>,
+          &nbsp;<code className="base--code">Faculty,</code> &nbsp;<code className="base--code">Research,</code> &nbsp; or other domains.
+          The output includes the top classification and a confidence score.
         </p>
         <div className="question-input">
           <div className="question-input--input-container">
@@ -65,7 +62,7 @@ export default React.createClass({
               onChange={this.handleInputChange}
               onKeyPress={this.handleKeyPress}
               id="question"
-              placeholder="Enter a weather question or Try a sample question below"
+              placeholder="Enter your question or Try a frequently asked questions below"
               className="base--input question-input--input"
               required="true"
             />
@@ -80,7 +77,7 @@ export default React.createClass({
             </button>
           </div>
         </div>
-        <h3 className="base--h3">Sample questions</h3>
+        <h3 className="base--h3">Frequently Asked Questions</h3>
 
         <div className="sample-questions">
           <div className="sample-questions--left">
@@ -90,7 +87,8 @@ export default React.createClass({
                   className="base--a"
                   onClick={this.onSampleQuestionClick}
                 >
-                  Is it hot outside?
+                  What companies support the BI&A program?
+
                 </a>
               </li>
               <li className="base--li">
@@ -98,7 +96,8 @@ export default React.createClass({
                   className="base--a"
                   onClick={this.onSampleQuestionClick}
                 >
-                  What is the expected high for today?
+				Would you prefer GATE scores?
+
                 </a>
               </li>
               <li className="base--li">
@@ -106,7 +105,8 @@ export default React.createClass({
                   className="base--a"
                   onClick={this.onSampleQuestionClick}
                 >
-                  Will it be foggy tomorrow morning?
+                  Does the CS program has any courses on robotics?
+
                 </a>
               </li>
               <li className="base--li">
@@ -114,7 +114,8 @@ export default React.createClass({
                   className="base--a"
                   onClick={this.onSampleQuestionClick}
                 >
-                  Should I prepare for sleet?
+      			 Will I have an opportunity to work on a research project?
+
                 </a>
               </li>
               <li className="base--li">
@@ -122,22 +123,45 @@ export default React.createClass({
                   className="base--a"
                   onClick={this.onSampleQuestionClick}
                 >
-                  Will there be a storm today?
+                  Does the BI&A program run placement events?
+
+
+                </a>
+              </li>
+              <li className="base--li">
+                <a
+                  className="base--a"
+                  onClick={this.onSampleQuestionClick}
+                >
+                  Does the program help develop communication skills?
+
+                </a>
+              </li>
+              <li className="base--li">
+                <a
+                  className="base--a"
+                  onClick={this.onSampleQuestionClick}
+                >
+                  Where can I get help as an international student?
+
+
+                </a>
+              </li>
+              <li className="base--li">
+                <a
+                  className="base--a"
+                  onClick={this.onSampleQuestionClick}
+                >
+                  What is the minimum TOEFL score required for admission to the program?
+
+
                 </a>
               </li>
             </ul>
           </div>
           <div className="sample-questions--right">
             <p className="base--p">The classifier often scores well with terms that it hasn't
-              been trained on. In the sample questions, the words "sleet," "foggy,"
-              and "typhoon" are not part of the&nbsp;
-              <a
-                className="base--a"
-                href="https://github.com/watson-developer-cloud/natural-language-classifier-nodejs/blob/master/training/weather_data_train.csv"
-                target="_blank"
-                rel="noopener noreferrer"
-              >training data
-              </a>, yet the classifier correctly handles questions about them.
+              been trained on. Please note that the words "GATE," "robotics," are not part of training data, yet the classifier correctly handles questions about them.
             </p>
           </div>
         </div>
