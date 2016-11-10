@@ -1,4 +1,4 @@
-# Natural Language Classifier Demo [![Build Status](https://travis-ci.org/watson-developer-cloud/natural-language-classifier-nodejs.svg?branch=master)](http://travis-ci.org/watson-developer-cloud/natural-language-classifier-nodejs)
+# Natural Language Classifier | Stevens' Academic Dataset Demo [![Build Status](https://travis-ci.org/watson-developer-cloud/natural-language-classifier-nodejs.svg?branch=master)](http://travis-ci.org/watson-developer-cloud/natural-language-classifier-nodejs)
 
   This Repository contains the Natural Language Classifier example on the Stevens' Academic Dataset. This NLC service will classify the End user questions into a class that can be fed to R&R Service to get the corressponding answer documents. 
   
