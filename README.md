@@ -1,6 +1,8 @@
 # Natural Language Classifier Demo [![Build Status](https://travis-ci.org/watson-developer-cloud/natural-language-classifier-nodejs.svg?branch=master)](http://travis-ci.org/watson-developer-cloud/natural-language-classifier-nodejs)
 
-  The IBM Watson&trade; Natural Language Classifier service applies deep learning techniques to make predictions about the best predefined classes for short sentences or phrases. The classes can trigger a corresponding action in an application, such as directing a request to a location or person, or answering a question. After training, the service returns information for texts that it hasn't seen before. The response includes the name of the top classes and confidence values.
+  This Repository contains the Natural Language Classifier example on the Stevens' Academic Dataset. This NLC service will classify the End user questions into a class that can be fed to R&R Service to get the corressponding answer documents. 
+  
+	The IBM Watson&trade; Natural Language Classifier service applies deep learning techniques to make predictions about the best predefined classes for short sentences or phrases. The classes can trigger a corresponding action in an application, such as directing a request to a location or person, or answering a question. After training, the service returns information for texts that it hasn't seen before. The response includes the name of the top classes and confidence values.
 
 Give it a try! Click the button below to fork into IBM DevOps Services and deploy your own copy of this application on Bluemix.
 
